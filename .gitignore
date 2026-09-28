@@ -1,0 +1,5 @@
+node_modules
+dist
+
+# Local env vars for the contact form — never commit real credentials
+.env.local
