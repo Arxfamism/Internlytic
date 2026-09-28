@@ -83,7 +83,7 @@ export function Brand({
   onDark = false
 }) {
   const logoClass = onDark ? "h-10 w-auto" : "h-11 w-auto";
-  return <Link to="/" className="flex items-center gap-3" aria-label="Swift Lab Technologies home">
+  return <Link to="/" className="flex items-center gap-3" aria-label="Interlytic Technologies home">
       <span className="grid place-items-center">
         <img src={onDark ? swiftLabIconLight : swiftLabIcon} alt="" className={`brand-logo-default ${logoClass}`} aria-hidden="true" />
         <img src={onDark ? swiftLabIconGreenLight : swiftLabIconGreen} alt="" className={`brand-logo-forest ${logoClass}`} aria-hidden="true" />
