@@ -89,69 +89,84 @@
 }
 
 /*
- * Default theme: soft light background, purple (light / soft / dark) up front,
- * navy-blue touches for depth, and mint green as a small accent.
- * (The green "Forest" theme at the bottom of this file is unchanged.)
+ * Updated Theme: Light Blue base with Soft Warm Yellow / Gold accents.
  */
 :root {
-  --g-h: 300;
-  --g-h2: 285;
+  --g-h: 230;
+  --g-h2: 85;
   --radius: 0.5rem;
-  --background:oklch(0.985 0.008 295);
-  --foreground: oklch(0.23 0.06 275);
+  
+  /* Home Page Base & Text */
+  --background: oklch(0.988 0.008 230);
+  --foreground: oklch(0.22 0.06 240);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.23 0.06 275);
+  --card-foreground: oklch(0.22 0.06 240);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.23 0.06 275);
-  --primary: oklch(0.48 0.17 295);
-  --primary-foreground: oklch(0.99 0.005 295);
-  --secondary:  oklch(0.9 0.05 298);
-  --secondary-foreground: oklch(0.33 0.13 295);
-  --muted: oklch(0.96 0.016 290);
-  --muted-foreground: oklch(0.48 0.05 275);
-  --accent: oklch(0.94 0.042 298);
-  --accent-foreground: oklch(0.38 0.14 295);
+  --popover-foreground: oklch(0.22 0.06 240);
+  
+  /* Primary Actions & Buttons (Light Blue) */
+  --primary: oklch(0.62 0.18 230);
+  --primary-foreground: oklch(0.99 0.005 230);
+  
+  /* Secondary & Accents (Warm Light Yellow / Gold) */
+  --secondary: oklch(0.94 0.04 85);
+  --secondary-foreground: oklch(0.35 0.12 85);
+  --muted: oklch(0.965 0.015 230);
+  --muted-foreground: oklch(0.48 0.05 240);
+  --accent: oklch(0.95 0.05 85);
+  --accent-foreground: oklch(0.38 0.14 85);
+  
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.9 0.03 290);
-  --input: oklch(0.9 0.03 290);
-  --ring: oklch(0.48 0.17 295);
-  --brand-teal: oklch(0.48 0.17 295);
-  --brand-coral: oklch(0.58 0.17 300);
-  --brand-gold: oklch(0.8 0.09 300);
-  --brand-ink: oklch(0.25 0.08 265);
-  --footer-purple: oklch(0.28 0.12 285);
-  --footer-purple-deep: oklch(0.17 0.08 265);
-  --brand-violet: oklch(0.5 0.17 295);
-  --brand-blue: oklch(0.45 0.13 262);
-  --brand-cyan: oklch(0.84 0.09 160);
-  --experience-teal: oklch(0.6 0.16 298);
-  --surface-soft:oklch(0.955 0.025 285);
-  --surface-mint: oklch(0.9 0.055 298);
-  --surface-coral: oklch(0.945 0.032 300);
-  --luxe-cream: oklch(0.975 0.014 290);
-  --luxe-forest: oklch(0.28 0.08 268);
+  --border: oklch(0.91 0.025 230);
+  --input: oklch(0.91 0.025 230);
+  --ring: oklch(0.62 0.18 230);
+  
+  /* Brand Variations */
+  --brand-teal: oklch(0.62 0.18 230);
+  --brand-coral: oklch(0.78 0.15 85);
+  --brand-gold: oklch(0.85 0.14 90);
+  --brand-ink: oklch(0.22 0.08 245);
+  --footer-purple: oklch(0.24 0.09 235);
+  --footer-purple-deep: oklch(0.16 0.06 240);
+  --brand-violet: oklch(0.62 0.18 230);
+  --brand-blue: oklch(0.58 0.17 235);
+  --brand-cyan: oklch(0.82 0.12 210);
+  --experience-teal: oklch(0.65 0.15 220);
+  
+  --surface-soft: oklch(0.97 0.015 230);
+  --surface-mint: oklch(0.95 0.04 88);
+  --surface-coral: oklch(0.96 0.03 85);
+  --luxe-cream: oklch(0.985 0.012 88);
+  --luxe-forest: oklch(0.26 0.07 240);
+  
   --social-facebook: #1877f2;
   --social-instagram: #e4405f;
   --social-x: #000000;
   --social-linkedin: #0a66c2;
   --social-youtube: #ff0000;
   --social-tiktok: #00f2ea;
-  --hero: oklch(0.9 0.06 300);
-  --shadow-soft: 0 16px 45px oklch(0.25 0.08 270 / 0.1);
-  --shadow-brand: 0 10px 26px oklch(0.48 0.17 295 / 0.3);
-  --shadow-brand-lg: 0 16px 34px oklch(0.48 0.17 295 / 0.38);
-  --shadow-coral: 0 12px 30px oklch(0.58 0.17 300 / 0.26);
-  --shadow-workflow: 0 30px 80px oklch(0.25 0.08 270 / 0.15), 0 8px 28px oklch(0.48 0.17 295 / 0.14);
-  --shadow-story: 0 22px 55px oklch(0.25 0.08 270 / 0.12);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
+  
+  /* Hero Gradient Glow (Light Sky Blue Glow) */
+  --hero: oklch(0.94 0.035 230);
+  
+  /* Shadows adjusted for Blue Theme */
+  --shadow-soft: 0 16px 45px oklch(0.25 0.08 230 / 0.08);
+  --shadow-brand: 0 10px 26px oklch(0.62 0.18 230 / 0.25);
+  --shadow-brand-lg: 0 16px 34px oklch(0.62 0.18 230 / 0.32);
+  --shadow-coral: 0 12px 30px oklch(0.78 0.15 85 / 0.22);
+  --shadow-workflow: 0 30px 80px oklch(0.22 0.08 240 / 0.12), 0 8px 28px oklch(0.62 0.18 230 / 0.12);
+  --shadow-story: 0 22px 55px oklch(0.22 0.08 240 / 0.1);
+  
+  --chart-1: oklch(0.62 0.18 230);
+  --chart-2: oklch(0.78 0.15 85);
+  --chart-3: oklch(0.42 0.09 240);
+  --chart-4: oklch(0.85 0.14 90);
+  --chart-5: oklch(0.72 0.16 210);
+  
   --sidebar: oklch(0.984 0.003 247.858);
   --sidebar-foreground: oklch(0.129 0.042 264.695);
-  --sidebar-primary: oklch(0.208 0.042 265.755);
+  --sidebar-primary: oklch(0.62 0.18 230);
   --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
   --sidebar-accent: oklch(0.968 0.007 247.896);
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
@@ -168,7 +183,7 @@
   --popover-foreground: oklch(0.984 0.003 247.858);
   --primary: oklch(0.929 0.013 255.508);
   --primary-foreground: oklch(0.208 0.042 265.755);
-  --secondary: oklch(0.9 0.05 298);
+  --secondary: oklch(0.279 0.041 260.031);
   --secondary-foreground: oklch(0.984 0.003 247.858);
   --muted: oklch(0.279 0.041 260.031);
   --muted-foreground: oklch(0.704 0.04 256.788);
@@ -225,7 +240,6 @@
 @utility text-balance {
   text-wrap: balance;
 }
-
 @keyframes float-soft {
   0%,
   100% {
