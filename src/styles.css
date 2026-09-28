@@ -97,7 +97,7 @@
   --g-h: 300;
   --g-h2: 285;
   --radius: 0.5rem;
-  --background:lch(70 39 8) ;
+  --background:oklch(0.985 0.008 295);
   --foreground: oklch(0.23 0.06 275);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.23 0.06 275);
