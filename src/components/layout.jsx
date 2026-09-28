@@ -90,8 +90,8 @@ export function Brand({
       </span>
       <span className="leading-none">
         <span className="block font-display text-[1.2rem] font-extrabold tracking-[0.02em]">
-          <span className={onDark ? "text-white" : "text-brand-ink"}>INTERNLYTIC</span>
-          <span className={onDark ? "brand-lab-footer" : "brand-spectrum-text"}></span>
+          <span className={onDark ? "text-white" : "text-brand-ink"}>INTERN</span>
+          <span className={onDark ? "brand-lab-footer" : "brand-spectrum-text"}>LYTIC</span>
         </span>
         <span className={`mt-1.5 block text-[0.56rem] font-semibold uppercase tracking-[0.34em] ${onDark ? "text-white/75" : "text-muted-foreground"}`}>
           Technologies
