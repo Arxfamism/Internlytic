@@ -5,7 +5,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { Button } from "@/components/ui/button";
 import { getCurrentUser, logoutUser } from "@/lib/auth";
 import { applyTheme, getTheme } from "@/lib/theme";
-import swiftLabIcon from "@/assets/swift-lab-icon.png";
+import swiftLabIcon from "@/assets/internlytic-icon.png";
 import swiftLabIconLight from "@/assets/swift-lab-icon-light.png";
 import swiftLabIconGreen from "@/assets/swift-lab-icon-green.png";
 import swiftLabIconGreenLight from "@/assets/swift-lab-icon-green-light.png";
