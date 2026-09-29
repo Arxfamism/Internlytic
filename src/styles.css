@@ -98,16 +98,16 @@
   --g-h2: 285;
   --radius: 0.5rem;
   --background:oklch(0.985 0.008 300);
-  --foreground: oklch(0.23 0.06 275);
+  --foreground: oklch(0.23 0.06 100);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.23 0.06 275);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.23 0.06 275);
+  --card-foreground: oklch(0.23 0.06 100);
+  --popover: oklch(200);
+  --popover-foreground: oklch(0.23 0.06 100);
   --primary: oklch(0.48 0.17 295);
-  --primary-foreground: oklch(0.99 0.005 295);
-  --secondary:  oklch(0.9 0.05 298);
-  --secondary-foreground: oklch(0.33 0.13 295);
-  --muted: oklch(0.96 0.016 290);
+  --primary-foreground: oklch(0.99 0.005 100);
+  --secondary:  oklch(0.9 0.05 198);
+  --secondary-foreground: oklch(0.33 0.13 100);
+  --muted: oklch(0.96 0.016 100);
   --muted-foreground: oklch(0.48 0.05 275);
   --accent: oklch(0.94 0.042 298);
   --accent-foreground: oklch(0.38 0.14 295);
@@ -137,13 +137,13 @@
   --social-linkedin: #0a66c2;
   --social-youtube: #ff0000;
   --social-tiktok: #00f2ea;
-  --hero: oklch(0.9 0.06 100);
-  --shadow-soft: 0 16px 45px oklch(0.25 0.08 270 / 0.1);
-  --shadow-brand: 0 10px 26px oklch(0.48 0.17 295 / 0.3);
-  --shadow-brand-lg: 0 16px 34px oklch(0.48 0.17 295 / 0.38);
-  --shadow-coral: 0 12px 30px oklch(0.58 0.17 300 / 0.26);
-  --shadow-workflow: 0 30px 80px oklch(0.25 0.08 270 / 0.15), 0 8px 28px oklch(0.48 0.17 295 / 0.14);
-  --shadow-story: 0 22px 55px oklch(0.25 0.08 270 / 0.12);
+  --hero: oklch(0.9 0.06 300);
+  --shadow-soft: 0 16px 45px oklch(0.25 0.08 27 / 0.1);
+  --shadow-brand: 0 10px 26px oklch(0.48 0.17 29 / 0.3);
+  --shadow-brand-lg: 0 16px 34px oklch(0.48 0.17 29 / 0.38);
+  --shadow-coral: 0 12px 30px oklch(0.58 0.17 30 / 0.26);
+  --shadow-workflow: 0 30px 80px oklch(0.25 0.08 27 / 0.15), 0 8px 28px oklch(0.48 0.17 295 / 0.14);
+  --shadow-story: 0 22px 55px oklch(0.25 0.08 27 / 0.12);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -301,12 +301,12 @@
 /* Reusable soft gradient backgrounds for other sections / pages */
 .section-grad-purple {
   background:
-    radial-gradient(circle at 90% 10%, oklch(0.88 0.07 var(--g-h) / 0.34), transparent 36%),
+    radial-gradient(circle at 100% 10%, oklch(0.8 0.07 var(--g-h) / 0.34), transparent 10%),
     linear-gradient(160deg, oklch(0.975 0.015 var(--g-h)) 0%, oklch(0.945 0.038 var(--g-h)) 100%);
 }
 .section-grad-green {
   background:
-    radial-gradient(circle at 8% 90%, oklch(0.88 0.09 var(--g-h) / 0.34), transparent 36%),
+    radial-gradient(circle at 8% 90%, oklch(3.00 0.09 var(--g-h) / 0.34), transparent 36%),
     linear-gradient(160deg, oklch(0.975 0.02 var(--g-h)) 0%, oklch(0.945 0.045 var(--g-h)) 100%);
 }
 
@@ -326,8 +326,8 @@
 
 .hero-section {
   background:
-    radial-gradient(circle at 6% 14%, oklch(0.86 0.1 var(--g-h) / 0.45), transparent 10%),
-    radial-gradient(circle at 94% 86%, oklch(0.88 0.09 var(--g-h) / 0.4), transparent 38%),
+    radial-gradient(circle at 6% 14%, oklch(0.86 0.1 var(--g-h) / 0.45), transparent 60%),
+    radial-gradient(circle at 94% 86%, oklch(0.88 0.09 var(--g-h) / 0.4), transparent 10%),
     linear-gradient(125deg, oklch(0.955 0.04 var(--g-h)) 0%, oklch(0.975 0.022 var(--g-h)) 5%, oklch(0.94 0.055 148) 10%);
 }
 .hero-blob { background: oklch(0.86 0.09 var(--g-h)); }
