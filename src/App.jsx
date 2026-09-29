@@ -114,13 +114,7 @@ const foundingPartners = [{
   image: partnerArslan,
   imagePosition: "center 20%",
   linkedin: "https://www.linkedin.com/in/arslan-fayyaz-3a4781214"
-},  {
-  name: "Ayesha Nazar",
-  position: "VP Engineering",
-  image: partnerAyesha,
-  imagePosition: "center 22%",
-  linkedin: "https://www.linkedin.com/in/ayesha-nazar100/"
-}];
+},  
 const journeySteps = [{
   icon: Sparkles,
   label: "E-Commerce",
