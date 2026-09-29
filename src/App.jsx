@@ -114,12 +114,7 @@ const foundingPartners = [{
   image: partnerArslan,
   imagePosition: "center 20%",
   linkedin: "https://www.linkedin.com/in/arslan-fayyaz-3a4781214"
-}, {
-  name: "Samra Amir",
-  position: "Co - Founder | CTO",
-  image: partnerSamra,
-  linkedin: "https://www.linkedin.com/in/samra-amir-93389b26a/"
-}, {
+},  {
   name: "Ayesha Nazar",
   position: "VP Engineering",
   image: partnerAyesha,
