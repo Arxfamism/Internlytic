@@ -326,9 +326,9 @@
 
 .hero-section {
   background:
-    radial-gradient(circle at 6% 14%, oklch(0.86 0.1 var(--g-h) / 0.45), transparent 40%),
+    radial-gradient(circle at 6% 14%, oklch(0.86 0.1 var(--g-h) / 0.45), transparent 10%),
     radial-gradient(circle at 94% 86%, oklch(0.88 0.09 var(--g-h) / 0.4), transparent 38%),
-    linear-gradient(125deg, oklch(0.955 0.04 var(--g-h)) 0%, oklch(0.975 0.022 var(--g-h)) 50%, oklch(0.94 0.055 148) 100%);
+    linear-gradient(125deg, oklch(0.955 0.04 var(--g-h)) 0%, oklch(0.975 0.022 var(--g-h)) 5%, oklch(0.94 0.055 148) 10%);
 }
 .hero-blob { background: oklch(0.86 0.09 var(--g-h)); }
 
